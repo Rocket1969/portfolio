@@ -1,0 +1,96 @@
+$header1: 2.5rem;
+$header2: 4rem;
+$header3: 2.5rem;
+$header4: 2rem;
+$text: 2.5rem;
+$gradient: linear-gradient(left, #38d39f, #38a4d3);
+$background-color: #154353;
+$gray-text: #2c2c2c;
+
+@mixin flex($justify, $align, $direction) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+@import "global";
+@import "nav";
+@import "intro";
+@import "projects";
+@import "contact";
+@import "footer";
+
+
+@media screen and (max-width: 1600px) {
+  html {
+    font-size: 55%;
+  } 
+  
+  nav {
+    width: 100%;
+  }
+  .splash {
+    display: none;
+  }
+  svg {
+    width: 80%;
+    margin-left: 20%;
+  }
+
+}
+
+@media screen and (max-width: 1230px) {
+  .robofriends {
+    margin-bottom: 5rem;
+  }
+}
+
+
+
+@media screen and (max-width: 825px) {
+  html {
+    font-size: 45%;
+  }
+  svg {
+    height: 60%;
+    margin-left: 0;
+  }
+  .main-head {
+    width: 100%;
+  }
+  nav {
+    .logo {
+      @include flex(center, center, column);
+      flex: 1 1 20rem;
+      margin-top: 2rem;
+    }
+    ul {
+      flex: 1 1 60rem;
+      margin: 2rem 0rem;
+    }
+  }
+  .intro-text {
+    margin-top: 5rem;
+    text-align: center;
+  }
+
+  .intro-text h2 {
+    white-space: nowrap;
+  }
+
+  .intro-images {
+    text-align: center;
+  }
+  .intro-social {
+    @include flex(center, center, row);
+    a {
+      margin: 2rem;
+    }
+  }
+
+  form {
+    padding: 0rem;
+    width: 100%;
+  }
+}

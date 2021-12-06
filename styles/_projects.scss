@@ -1,0 +1,61 @@
+.projects {
+  width: 90%;
+  margin: auto;
+  min-height: 90vh;
+  @include flex(space-around, center, row);
+  text-align: center;
+  flex-wrap: wrap;
+  h2 {
+    margin: 5rem;
+  }
+
+  img {
+    margin: auto;
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 540px;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  a {
+    color: white
+  }
+}
+
+.buttons {
+  display: flex;
+  width: 545px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  
+  button {
+  cursor: pointer;
+  padding: 2rem;
+  width: 270px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  border: none;
+  background: $background-color;
+  color: white;
+}
+}
+
+.code {
+ border-bottom-left-radius: 10px;
+}
+
+.live {
+  border-bottom-right-radius: 10px;
+}
+
+.robofriends,
+.elena {
+  flex: 1 1 40rem;
+}
+
+
