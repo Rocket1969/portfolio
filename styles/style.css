@@ -262,9 +262,9 @@ nav ul {
   display: flex;
   width: 545px;
   margin: auto;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -273,8 +273,8 @@ nav ul {
 .buttons button {
   cursor: pointer;
   padding: 2rem;
-  width: 270px;
-  margin: auto;
+  width: 49%;
+  margin: 0 auto;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -495,6 +495,7 @@ footer h4 {
   }
   .buttons button {
     width: 49.5%;
+    margin: 0;
   }
   form {
     padding: 0rem;

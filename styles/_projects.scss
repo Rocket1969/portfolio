@@ -28,14 +28,14 @@
   display: flex;
   width: 545px;
   margin: auto;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   
   button {
   cursor: pointer;
   padding: 2rem;
-  width: 270px;
-  margin: auto;
+  width: 49%;
+  margin: 0 auto;
   justify-content: center;
   align-items: center;
   display: inline-block;
