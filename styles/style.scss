@@ -21,12 +21,11 @@ $gray-text: #2c2c2c;
 @import "contact";
 @import "footer";
 
-
 @media screen and (max-width: 1600px) {
   html {
     font-size: 55%;
-  } 
-  
+  }
+
   nav {
     width: 100%;
   }
@@ -37,7 +36,6 @@ $gray-text: #2c2c2c;
     width: 80%;
     margin-left: 20%;
   }
-
 }
 
 @media screen and (max-width: 1230px) {
@@ -46,9 +44,7 @@ $gray-text: #2c2c2c;
   }
 }
 
-
-
-@media screen and (max-width: 825px) {
+@media screen and (max-width: 550px) {
   html {
     font-size: 45%;
   }
@@ -86,6 +82,25 @@ $gray-text: #2c2c2c;
     @include flex(center, center, row);
     a {
       margin: 2rem;
+    }
+  }
+
+  .robofriends,
+  .elena {
+    flex: 1 1 50rem;
+  
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .buttons {
+    width: 100%;
+    background: blue;
+    
+    button {
+      width: 49.5%;
     }
   }
 

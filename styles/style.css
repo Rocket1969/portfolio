@@ -415,7 +415,7 @@ footer h4 {
   }
 }
 
-@media screen and (max-width: 825px) {
+@media screen and (max-width: 550px) {
   html {
     font-size: 45%;
   }
@@ -478,6 +478,24 @@ footer h4 {
   }
   .intro-social a {
     margin: 2rem;
+  }
+  .robofriends,
+  .elena {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 50rem;
+            flex: 1 1 50rem;
+  }
+  .robofriends img,
+  .elena img {
+    width: 100%;
+    height: auto;
+  }
+  .buttons {
+    width: 100%;
+    background: blue;
+  }
+  .buttons button {
+    width: 49.5%;
   }
   form {
     padding: 0rem;
