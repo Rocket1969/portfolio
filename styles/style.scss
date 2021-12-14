@@ -39,7 +39,7 @@ $gray-text: #2c2c2c;
 }
 
 @media screen and (max-width: 1230px) {
-  .robofriends {
+  .intro-images, .robofriends, form {
     margin-bottom: 5rem;
   }
 }
@@ -97,11 +97,11 @@ $gray-text: #2c2c2c;
 
   .buttons {
     width: 100%;
- 
-    button {
-      width: 49.5%;
-      margin: 0
-    }
+  }
+  
+  .button {
+    width: 49.5%;
+    margin: 0;
   }
 
   form {

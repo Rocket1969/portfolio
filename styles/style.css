@@ -270,7 +270,7 @@ nav ul {
           align-items: center;
 }
 
-.buttons button {
+.button {
   cursor: pointer;
   padding: 2rem;
   width: 49%;
@@ -410,7 +410,7 @@ footer h4 {
 }
 
 @media screen and (max-width: 1230px) {
-  .robofriends {
+  .intro-images, .robofriends, form {
     margin-bottom: 5rem;
   }
 }
@@ -493,7 +493,7 @@ footer h4 {
   .buttons {
     width: 100%;
   }
-  .buttons button {
+  .button {
     width: 49.5%;
     margin: 0;
   }

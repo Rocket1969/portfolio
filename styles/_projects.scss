@@ -30,8 +30,9 @@
   margin: auto;
   justify-content: space-between;
   align-items: center;
-  
-  button {
+}
+
+.button {
   cursor: pointer;
   padding: 2rem;
   width: 49%;
@@ -42,7 +43,6 @@
   border: none;
   background: $background-color;
   color: white;
-}
 }
 
 .code {
