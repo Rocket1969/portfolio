@@ -338,6 +338,7 @@ nav ul {
       -ms-flex-direction: column;
           flex-direction: column;
   border-radius: 2rem;
+  background: white;
 }
 
 .form-section form input,
@@ -356,9 +357,11 @@ nav ul {
 }
 
 .form-section form button {
-  width: 100%;
+  width: 92.5%;
   padding: 2rem;
   background: #154353;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   color: white;
 }
 
