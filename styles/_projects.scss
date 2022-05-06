@@ -16,7 +16,7 @@
     border-top-right-radius: 10px;
     width: 540px;
     height: 400px;
-    object-fit: cover;
+    object-fit: center;
   }
 
   a {
@@ -53,9 +53,10 @@
   border-bottom-right-radius: 10px;
 }
 
-.robofriends,
+.crown-clothing,
 .elena {
   flex: 1 1 40rem;
+  margin-bottom: 1rem;
 }
 
 
