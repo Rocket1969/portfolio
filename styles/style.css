@@ -220,7 +220,7 @@ nav ul {
   border-bottom-right-radius: 10px;
 }
 
-.crown-clothing,
+.auto-project-planner,
 .elena {
   flex: 1 1 40rem;
   margin-bottom: 1rem;
@@ -287,22 +287,19 @@ footer h4 {
   html {
     font-size: 55%;
   }
-
   nav {
     width: 100%;
   }
-
   .splash {
     display: none;
   }
-
   svg {
     width: 80%;
     margin-left: 20%;
   }
 }
 @media screen and (max-width: 1230px) {
-  .intro-images, .robofriends, form {
+  .intro-images, .elena, form {
     margin-bottom: 5rem;
   }
 }
@@ -310,16 +307,13 @@ footer h4 {
   html {
     font-size: 45%;
   }
-
   svg {
     height: 60%;
     margin-left: 0;
   }
-
   .main-head {
     width: 100%;
   }
-
   nav .logo {
     display: flex;
     justify-content: center;
@@ -332,7 +326,6 @@ footer h4 {
     flex: 1 1 60rem;
     margin: 2rem 0rem;
   }
-
   .intro-text {
     margin-top: 5rem;
     text-align: center;
@@ -340,11 +333,9 @@ footer h4 {
   .intro-text h2 {
     white-space: nowrap;
   }
-
   .intro-images {
     text-align: center;
   }
-
   .intro-social {
     display: flex;
     justify-content: center;
@@ -354,28 +345,24 @@ footer h4 {
   .intro-social a {
     margin: 2rem;
   }
-
-  .crown-clothing,
+  .auto-project-planner,
 .elena {
     flex: 1 1 50rem;
   }
-  .crown-clothing img,
+  .auto-project-planner img,
 .elena img {
     width: 100%;
     height: auto;
     -o-object-fit: cover;
        object-fit: cover;
   }
-
   .buttons {
     width: 100%;
   }
-
   .button {
     width: 49.5%;
     margin: 0;
   }
-
   form {
     padding: 0rem;
     width: 100%;

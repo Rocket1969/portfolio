@@ -39,7 +39,7 @@ $gray-text: #2c2c2c;
 }
 
 @media screen and (max-width: 1230px) {
-  .intro-images, .robofriends, form {
+  .intro-images, .elena, form {
     margin-bottom: 5rem;
   }
 }
@@ -85,10 +85,10 @@ $gray-text: #2c2c2c;
     }
   }
 
-  .crown-clothing,
+  .auto-project-planner,
   .elena {
     flex: 1 1 50rem;
-  
+    
     img {
       width: 100%;
       height: auto;
